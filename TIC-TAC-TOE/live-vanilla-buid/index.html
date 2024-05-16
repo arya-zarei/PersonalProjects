@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Title and default html5 set up of index.html code-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <!--Imported to display icons for webpage-->
+    <script
+      src="https://kit.fontawesome.com/3bfd3ce9e5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Vanilla TIC-TAC-TOE GAME</title>
+  </head>
+  <body>
+    <main>
+      <!-- This first row of the grid consists of the turn squares that identify who is next as well as the actions button to 
+        reset the board and score. The 9 game board squares represent the game itself. The last row consists of the score squares, 
+        the wins and ties for both players. -->
+      <div class="grid" data-id="grid">
+        <div class="turn" data-id="turn">
+          <i class="fa-solid fa-x blue"></i>
+          <p class="blue">Player 1, you're up!</p>
+        </div>
+
+        <!-- Dropdown menu for player actions (reset and new round)-->
+        <div class="menu" data-id="menu">
+          <button class="menu-btn" data-id="menu-btn">
+            Menu
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+
+          <!--Options under drop down menu: menu has hidden in its class because it is hidden until the action 
+            button is pressed and is rehidden once one of the options are pressed-->
+          <div class="items border hidden" data-id="menu-items">
+            <button data-id="reset-btn">Reset</button>
+            <button data-id="new-round-btn">New Round</button>
+          </div>
+        </div>
+
+        <!--Game board each square has an id so the players pieces can be tracked to calculate game results and save game pieces-->
+        <div id="1" class="square shadow" data-id="square"></div>
+        <div id="2" class="square shadow" data-id="square"></div>
+        <div id="3" class="square shadow" data-id="square"></div>
+        <div id="4" class="square shadow" data-id="square"></div>
+        <div id="5" class="square shadow" data-id="square"></div>
+        <div id="6" class="square shadow" data-id="square"></div>
+        <div id="7" class="square shadow" data-id="square"></div>
+        <div id="8" class="square shadow" data-id="square"></div>
+        <div id="9" class="square shadow" data-id="square"></div>
+
+        <!--Score board-->
+        <!--Player 1 record-->
+        <div class="score shadowScore" style="background-color: var(--blue)">
+          <p>Player 1</p>
+          <span data-id="p1-wins">0 Wins</span>
+        </div>
+        <!--Tie games count-->
+        <div
+          class="score shadowScore"
+          style="background-color: var(--light-gray)"
+        >
+          <p>Ties</p>
+          <span data-id="ties">0</span>
+        </div>
+        <!--Player 2 record-->
+        <div class="score shadowScore" style="background-color: var(--orange)">
+          <p>Player 2</p>
+          <span data-id="p2-wins">0 Wins</span>
+        </div>
+      </div>
+    </main>
+
+    <!-- Modal that opens when game ends: When the game ends a modal pops up with the result and a play again button. 
+    Once the play again button is selected the modal is then rehidden using the hidden tag -->
+    <div class="modal hidden" data-id="modal">
+      <div class="modal-contents">
+        <p data-id="modal-text">Player 1 wins!</p>
+        <button data-id="modal-btn">Play again</button>
+      </div>
+    </div>
+
+    <script src="js/app.js" type="module"></script>
+  </body>
+</html>
