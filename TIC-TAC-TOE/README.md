@@ -18,6 +18,14 @@ This is a simple Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. T
 4. Use the "New Round" button to start a new round without affecting the scores.
 5. Use the "Reset Score" button to reset the scores for both players and ties.
 
+## Screenshots
+
+![Screenshot 2024-05-23 141422](https://github.com/arya-zarei/PersonalProjects/assets/132939550/e031d991-a8c8-4d9a-97f4-5c2697abf136)
+![Screenshot 2024-05-23 141433](https://github.com/arya-zarei/PersonalProjects/assets/132939550/4648d038-0850-4d04-9de2-4b77d8e519d3)
+![Screenshot 2024-05-23 141442](https://github.com/arya-zarei/PersonalProjects/assets/132939550/67e0e70a-f5fb-44b4-b6be-574287079676)
+![Screenshot 2024-05-23 141504](https://github.com/arya-zarei/PersonalProjects/assets/132939550/546f13f8-a49f-444d-9e4d-40fe10b69697)
+![Screenshot 2024-05-23 141409](https://github.com/arya-zarei/PersonalProjects/assets/132939550/cbb6ac15-6802-4dde-bcc8-96b0a377cff5)
+
 ## Technologies Used
 
 - HTML
