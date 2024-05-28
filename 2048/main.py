@@ -252,7 +252,7 @@ def move_tiles(window, tiles, clock, direction):
 def end_move(tiles):
     # Check if any tile has reached 2048
     for tile in tiles.values():
-        if tile.value == 32:
+        if tile.value == 2048:
             return "won"
 
         # Check if the board is full
