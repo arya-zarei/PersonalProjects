@@ -12,8 +12,8 @@ Welcome to my personal projects repository! This repository is dedicated to all 
 
 - [TIC-TAC-TOE]: TIC-TAC-TOE game created in JavaScript, HTML and CSS.
 - [Online Movie Review React Web App]: This movie review web app was created in React for the front-end and Java/Spring Boot for the back-end with MongoDB for the database.
-- [2048 Python Game]: This 2048 game uses the Python Pygame library to recreate the 2048 game using math and animations.
-- [Self-driving car]: This self-driving car JavaScript project with no libraries uses Machine Learning stored in local storage and Neural Networks to create self-driving car simulations based on different traffic scenarios.
+- [2048]: This 2048 game uses the Python Pygame library to recreate the 2048 game using the same mathematical logic and similar animations/colours.
+- [Self-Driving Car]: This self-driving car JavaScript project with no libraries uses Machine Learning stored in local storage and Neural Networks to create self-driving car simulations based on different traffic scenarios.
 
 
 Feel free to explore the repository and check out my projects. If you have any suggestions or feedback, please let me know!
