@@ -6,7 +6,7 @@ The best car path is stored in local storage, and users can choose to save or di
 ## Features
 
 - **Self-Driving Car Simulation**: A car navigating three lanes with generated traffic.
-- **Neural Networks**: Four directions for the neural links and 3 levels with different biases, weights inputs and outputs using a feedForward logic.
+- **Neural Networks**: Four directions for the neural links and 3 levels with different biases, weights inputs and outputs using a feed forward logic.
 - **Machine Learning**: Stores the best car path in local storage with an option to increase or decrease the number of AI cars per simulation to better train AI car.
 - **User Interaction**: Options to save or discard the car path from local memory to enhance car learning based on previous results.
 - **Adjustable Parameters**: Modify the number of cars used for better machine learning optimization.
