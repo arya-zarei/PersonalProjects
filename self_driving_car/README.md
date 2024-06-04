@@ -5,10 +5,10 @@ The best car path is stored in local storage, and users can choose to save or di
 
 ## Features
 
-- **Self-Driving Car Simulation**: A car navigating through three lanes with generated traffic.
+- **Self-Driving Car Simulation**: A car navigating three lanes with generated traffic.
 - **Neural Networks**: Four neural links for directions (left, right, forward, reverse).
-- **Machine Learning**: Stores the best car path in local storage.
-- **User Interaction**: Options to save or discard the car path from memory.
+- **Machine Learning**: Stores the best car path in local storage with an option to increase or decrease the number of AI cars per simulation to better train AI car.
+- **User Interaction**: Options to save or discard the car path from local memory to enhance car learning based on previous results.
 - **Adjustable Parameters**: Modify the number of cars used for better machine learning optimization.
 
 ## Project Structure
@@ -22,7 +22,7 @@ The best car path is stored in local storage, and users can choose to save or di
 - **road.js**: The JavaScript file containing the road structure, borders and display for the cars.
 - **sensor.js**: The JavaScript file containing the sensors of the car, its drawing and management.
 - **network.js**: The JavaScript file containing the neural network levels and feedForward functionality as well as its display.
-- **utils.js**: The JavaScript file containing the mathemtatical logic for the sensors and the reading of intersections and their distance.
+- **utils.js**: The JavaScript file containing the mathematical logic for the sensors and the reading of intersections and their distance.
 - **visualizer.js**: The JavaScript file containing the visualization for the neural network inputs, outputs, weights and biases.
 
 ## Screenshots
