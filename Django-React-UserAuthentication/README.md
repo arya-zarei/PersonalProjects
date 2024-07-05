@@ -25,3 +25,9 @@ This web application allows users to register, login, and logout. Once logged in
   - React
   - Axios for API requests
   - React Router for navigation
+
+## Screenshots
+
+![Screenshot 2024-07-05 184445](https://github.com/arya-zarei/PersonalProjects/assets/132939550/3e6cbc86-34bb-46a3-a122-79aff7c0aed5)
+![Screenshot 2024-07-05 184458](https://github.com/arya-zarei/PersonalProjects/assets/132939550/c64de93e-f168-4e8b-8232-07da2e11c020)
+![Screenshot 2024-07-05 184655](https://github.com/arya-zarei/PersonalProjects/assets/132939550/c219d800-fa6b-435a-b830-67d462b31914)
