@@ -42,3 +42,5 @@ This project is a web application built using C# and .NET in Visual Studio, util
 ![image](https://github.com/user-attachments/assets/25e59199-7fc8-4556-83b8-b9c85af1c424)
 ![image](https://github.com/user-attachments/assets/feeb26e1-b24b-464f-a9c8-756f8961e1ff)
 ![image](https://github.com/user-attachments/assets/d7cf9f48-cccf-47aa-9faf-59cc7f392e74)
+![image](https://github.com/user-attachments/assets/e295dbda-0be5-462e-bd18-0cb5f439251e)
+![image](https://github.com/user-attachments/assets/7db15771-6c82-4dee-a7ea-8add61d0d071)
